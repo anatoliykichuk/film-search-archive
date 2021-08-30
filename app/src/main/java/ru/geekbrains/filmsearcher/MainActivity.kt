@@ -6,7 +6,6 @@ import android.view.View
 import com.google.android.material.button.MaterialButton;
 
 class MainActivity : AppCompatActivity() {
-
     val connection = MovieDB.connect()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +19,11 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        connection.disconnect()
     }
 }
 
