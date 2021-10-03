@@ -1,8 +1,7 @@
-package ru.geekbrains.filmsearcher
+package ru.geekbrains.filmsearcher.model
 
 import java.net.HttpURLConnection
 import java.net.URL
-import java.net.URLConnection
 
 object MovieDB {
     private val authenticationURL = "https://api.themoviedb.org/3/authentication/token/new?" +

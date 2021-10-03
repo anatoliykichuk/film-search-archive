@@ -1,5 +1,6 @@
-package ru.geekbrains.filmsearcher
+package ru.geekbrains.filmsearcher.model
 
+import ru.geekbrains.filmsearcher.model.Keys
 import java.net.URLConnection
 
 class Request(val connection: URLConnection, val query: String,

@@ -1,4 +1,4 @@
-package ru.geekbrains.filmsearcher
+package ru.geekbrains.filmsearcher.model
 
 class Movie {
     val posterPath: String? = ""

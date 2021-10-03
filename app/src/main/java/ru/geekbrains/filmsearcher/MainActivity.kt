@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import com.google.android.material.button.MaterialButton;
+import ru.geekbrains.filmsearcher.model.MovieDB
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
