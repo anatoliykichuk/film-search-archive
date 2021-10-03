@@ -6,7 +6,7 @@ import java.net.URLConnection
 
 object MovieDB {
     private val authenticationURL = "https://api.themoviedb.org/3/authentication/token/new?" +
-            "api_key=${Keys.API}"
+            "api_key=${Keys.API_KEY}"
 
     fun connect(): HttpURLConnection {
         val connection = URL(authenticationURL).openConnection() as HttpURLConnection
